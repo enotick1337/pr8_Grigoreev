@@ -7,6 +7,5 @@ def password():
     for i in range(11):
     	result += random.choice(s1+s2)
     return result
-
 p = password()
 print(p)
